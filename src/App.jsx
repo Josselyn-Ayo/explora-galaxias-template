@@ -1,13 +1,13 @@
 import {BrowserRouter, Routes,Route} from'react-router-dom';
 import Navbar from './components/Navbar';
-import './App.css';
-import'./star.css';
-import Home from './pages/home';
+import Home from './pages/Home';
 import Galaxias from './pages/Galaxias';
 import Planetas from './pages/Planetas';
 import Constelacion from './pages/Constelacion';
 import Galeria from './pages/Galeria';
 import FunFacts from './pages/FunFacts';
+import './App.css';
+import'./star.css';
 
 
 function App() {
