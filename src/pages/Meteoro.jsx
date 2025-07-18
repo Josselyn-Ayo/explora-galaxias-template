@@ -1,124 +1,109 @@
 import { useState } from "react";
-function Galeria(){
+function Meteoro(){
     const[respuesta, setRespuesta] = useState("");
     return(
         <div className="bg-gradient-to-b from-black via-gray-900 to-slate-900 min-h-screen text-white py-16 px-6">
             <div className="max-w-6xl mx-auto text-center">
                 <h1 className="text-5xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-400 drop-shadow-lg animate-pulse">
-                    GALERÍA DEL UNIVERSO
+                    METEOROS Y METEORITOS
                 </h1>
                 <p className="text-gray-300 text-lg max-w-3xl mx-auto mb-12 leading-relaxed">
-                    El universo es un escenario muy impresionante que esta llemo de maravillas que nos dejan sin aliento. Desde auroras mágicas hasta tormentas cósmicas, 
-                    ¡descubre en esta galería los fenómenos y logros más icreíbles fuera de la Tierra!
-
+                    Estas rocas espaciales atraviesan nuestra atmósfera y nos muestran elpoder del cosmo.
+                    ¿Sabías que algunos meteoritos son más antiguos que la Tierra?
                 </p>
 
                     <section className='mb-20'>
-                    <h2 className='text-3xl font-bold text-pink-300 mb-8 animate-fadeIn'>
-                        Fenómenos Cósmicos
-                    </h2>
                     <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10'>
                         <div className='bg-white/10 backdrop-blur-md rounded-2xl p-5 shadow-lg hover:scale-105 transition-transform duration-500'>
-                        <a href="https://www.nationalgeographic.es/ciencia/auroras-boreales-forman-donde-ver"target="_blank">
-                        <img src="https://i.pinimg.com/originals/2e/4f/f5/2e4ff5abb760fb636067138e321f3ebf.gif" alt="Aurora Boreal"
+                        <a href="https://flexbooks.ck12.org/cbook/ck-12-conceptos-de-ciencias-de-la-tierra-grados-6-8-en-espanol/section/13.18/primary/lesson/meteoros/"target="_blank">
+                        <img src="https://i.makeagif.com/media/2-03-2023/mlEU06.gif" alt="Meteoro"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md'
                          />
-                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Aurora Boreal</h3>
+                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Meteoro</h3>
                         <p className='text-gray-300 text-sm'>
-                           Un espectáculo de luces naturales que decora los cielos polares con colores verdes y violetas mágicos.
+                           Es el estello brillante que vez en el cielo cuando un  meteoroide entra a la atmósfera y se quema.
                         </p>
                         </a>
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-5 shadow-lg hover:scale-105  transition-transform duration-500'>
-                        <a href="https://www.exploratorium.edu/es/eclipse/aprende-m%C3%A1s"target="_blank">
-                        <img src="https://curiositylover.wordpress.com/wp-content/uploads/2013/01/eclipse.gif" alt="Ecilpse Solar"
+                        <a href="https://www.museo.fcnym.unlp.edu.ar/meteoritos/meteoritos-30"target="_blank">
+                        <img src="https://i.gifer.com/6IX.gif" alt="meteorito"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md'
                          />
-                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Eclipse Solar</h3>
+                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Meteorito</h3>
                         <p className='text-gray-300 text-sm'>
-                           Cuado la Luna cubre el Sol y la sombrea trasforma el decia en noche por unos minutos. Un envento impresionante..
+                           Es un fragmento del espacio que ha sobrevivido el paso por la atmósfera y ha caído en la Tierra.
                         </p>
                         </a>
                         </div>
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-5 shadow-lg hover:scale-105  transition-transform duration-500'>
-                        <a href="https://www.nationalgeographic.es/espacio/una-gran-tormenta-solar-llega-a-la-tierra"target="_blank">
-                        <img src="https://media.tenor.com/kcqHpVqCzLsAAAAM/sun.gif" alt="Tormenta Solar"
+                        <a href="https://www.osn.iaa.es/ciencia/meteoros-y-bolidos"target="_blank">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9iOpD5E2g0aleOhZAwruHH-_05l25cSbysEBLvbCekAPPXWP26hM1zWq9mvWZwXCGKSUgJdFidxufSC_pzOYxw9BR8Bp4ytHRNKzP1SK-sK-Py_hLNsqWqIcEwJclO5F6c3Nr_ILqI43k/s1600/Frankie-Lucena-fireball_reflection_cfht_gif_720dpi_1539659158_lg.gif" alt="Bólido"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md'
                          />
-                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Tormenta Solar</h3>
+                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Bólido</h3>
                         <p className='text-gray-300 text-sm '>
-                          Explosiones de la superficie del Sol que envía energía a toda velocidad por el espacio. Una danza peligrosa de fuego. 
+                          Es un meteoro extremadamete brillante a veces explora la atmósfera con gran energía. 
                         </p>
                         </a>
                         </div>
                     </div>
                  </section>
                     <section className='mb-20'>
-                    <h2 className='text-3xl font-bold text-pink-300 mb-8 animate-fadeIn'>
-                        Exploración espacial
-                    </h2>
-                    <p className="text-gray-300 text-base mb-10 max-w-3xl mx-auto">
-                        Desde cohetes impresionantes hasta robots valientes, la NASA ha impulsado losseres humanos a descubrir los secretos del espacio.
-                        Cada misión es como una histroia de aventuras, llenas de ciencia, sueños y muchas emociones. 
-                    </p>
                     <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10'>
                         <div className='bg-white/10 backdrop-blur-md rounded-2xl p-5 shadow-lg hover:scale-105 transition-transform duration-500'>
-                        <a href="https://www.infobae.com/america/50-anios-del-hombre-en-la-luna/2019/07/18/saturno-v-el-gigante-que-permitio-el-historico-viaje-a-la-luna/"target="_blank">
-                        <img src="https://i.imgur.com/HWbIRlL.gif" alt="Saturn V"
+                        <a href="https://rodolfo-novakovic.blogspot.com/2005/11/clasificacin-de-los-meteoritos.html"target="_blank">
+                        <img src="https://media.tenor.com/kJnySS9eKvUAAAAM/crashing-to-earth-meteor-showers101.gif" alt="Pétreo-Metálico"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md'
                          />
-                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Saturn V</h3>
+                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Meteoritos Pétreo-Metálico</h3>
                         <p className='text-gray-300 text-sm'>
-                          El cohete más poderoso jamás construid, llevó a los humanos a la Luna en una misión Apolo 11.  .
+                          Es una mezcla entre la roca y metal,con cristales de olivino incrustados en hierro y niquel. So muy raros entre el nucleo y el manto.
                         </p>
                         </a>
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-5 shadow-lg hover:scale-105  transition-transform duration-500'>
-                        <a href="https://www.britannica.com/science/astrobiology" target="_blank">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWH2O40Q8mz8pJya6c0_3iGHpJe6GsMaq9OQ&s" alt="Curiosity Rover"
+                        <a href="https://www.debate.com.mx/tecnologia/Que-es-un-meteorito-pedregoso-20221119-0299.html" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVu-N1vZvUPphX3D16j5jyE8yz4kLVnlLuTQ&s" alt="Meteorito Pedregoso"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md'
                          />
-                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Curiosity Rover</h3>
+                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Meteorito Pedregoso</h3>
                         <p className='text-gray-300 text-sm'>
-                          Un robot exporador que estudia Marte desde 2012. Ha enviado imágenes asombrados y datos clave sobre el planeta rojo.
+                          Son los más comunes y están hechos principalmente con sindicato, parecido a las rocas de la Tierra. Contienen minerales llamados condritas.
                         </p>
                         </a>
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-5 shadow-lg hover:scale-105  transition-transform duration-500'>
-                        <a href="https://www.dw.com/es/el-telescopio-james-webb-descubre-su-primer-exoplaneta/a-73047917"target="_blank">
-                        <img src="https://i.pinimg.com/originals/56/f3/77/56f377b65c83da599107ab05f4661473.gif" alt="James Webb"
+                        <a href="https://www.researchgate.net/figure/Figura-1-Meteorito-condrita-carbonaceo-Fuente-catawikies_fig1_357664669"target="_blank">
+                        <img src="https://img.europapress.es/fotoweb/fotonoticia_20180918153040_690.jpg" alt="Meteorito Condrita"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md'
                          />
-                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Telescopio James Webb</h3>
+                        <h3 className='text-xl font-bold text-purple-200 mb-2'>Meteorito Condrita</h3>
                         <p className='text-gray-300 text-sm '>
-                           Un ojo gigante en el espacio que permite ver las primeras galaxias del universo con detalles importantes.
+                           Son un tipo de meteorito Pegregoso que contien pequeñas esferas llamadas cóndrulos. Estas esferas son materiales antiguos.
                         </p>
                         </a>
                         </div>
                     </div>
                  </section>
                         <div className="mt-14">
-                        <h2 className="text-2xl font-bold mb-4">¿Sabias esto? </h2>
-                        <p className="text-gray-300">¿Cuál fue elprimer objeto hecho por el ser humano en llegar al espacio?</p>
+                        <h2 className="text-2xl font-bold mb-4">¿Qué tanto sabes de los Meteoritos? </h2>
+                        <p className="text-gray-300">¿De qué está principalmente hecho los meteoritos férricos?</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <button className="bg-purple-700 hover:bg-purple-500 text-white px-4 py-2 rounded-lg"
                         onClick={() => setRespuesta("Incorrecto. ¡Intentalo de nuevo!")}
-                        > Apolo 11
+                        > Silicio y Oxígeno
                         </button>
                         <button className="bg-green-600 hover:bg-green-500 text-while px-4 py-2 rounded-xl"
-                        onClick={() => setRespuesta("Correcto. ¡Sputnik 1 lanzado  por la URSS en 1957!")}
-                        >  Sputnik 1
+                        onClick={() => setRespuesta("Correcto. ¡Los meteoritos férricos están compuesto con Hierro y níquel!")}
+                        >  Hierro y níquel
                         </button>
                         <button className="bg-purple-700 hover:bg-purple-500 text-white px-4 py-2 rounded-lg"
                         onClick={() => setRespuesta("Incorrecto. ¡Intentalo de nuevo!")}
-                        > Voyager 1
-                        </button>
-                        <button className="bg-purple-700 hover:bg-purple-500 text-white px-4 py-2 rounded-lg"
-                        onClick={() => setRespuesta("Incorrecto. ¡Intentalo de nuevo!")}
-                        > Telescopio Hubble
+                        > Carbono
                         </button>
                     </div>
                     {respuesta && (
@@ -138,4 +123,4 @@ function Galeria(){
     )
 
 }
-export default Galeria;
+export default Meteoro;

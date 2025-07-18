@@ -22,6 +22,7 @@ function Planetas(){
                     </h2>
                     <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://concepto.de/jupiter/"target="_blank">
                         <img src="https://67.media.tumblr.com/51339ece6ae680f271c355a38972cd1b/tumblr_inline_o8if1zqvPF1tzhl5u_500.gif" alt="Jupiter"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition'
                          />
@@ -29,9 +30,11 @@ function Planetas(){
                         <p className='text-gray-300 text-sm leading-relaxed'>
                            Un gigante imponente que domina el cielo con su tamañao. Sus tormentas son como bailes de colores y vientos que hace sentir una belleza en el universo. 
                         </p>
+                        </a>
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://concepto.de/saturno/"target="_blank">
                         <img src="https://www.madrimasd.org/blogs/astrofisica/files/2011/07/3B.Tormenta-Saturno-12-Marzo-2011_HST_Movie.gif" alt="Jupiter"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition'
                          />
@@ -39,8 +42,11 @@ function Planetas(){
                         <p className='text-gray-300 text-sm leading-relaxed'>
                            Un guardian elegante con anillos de cristal que gira lentamente. Me recuerda que el universo tiene arte en cada rincón.
                         </p>
+                        </a>
                         </div>
+
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://www.nationalgeographic.com.es/ciencia/urano-enigmatico-planeta-gigante-hielo_18641"target="_blank">
                         <img src="https://i.pinimg.com/originals/79/fe/17/79fe170383f8601eaa94fdf0fc32ced9.gif" alt="Urano"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition'
                          />
@@ -48,8 +54,11 @@ function Planetas(){
                         <p className='text-gray-300 text-sm leading-relaxed'>
                            Un gigante frío y azul que le gusta girar de lado, su color tranquilo y su movimiento único que hace pensar en lo inesperado y maravillo del universo.
                         </p>
+                        </a>
                         </div>
+
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://concepto.de/neptuno/"target="_blank">
                         <img src="https://guaix.fis.ucm.es/~ncl/lucia_crespo/neptuno_movement.gif" alt="Neptuno"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition'
                          />
@@ -57,6 +66,7 @@ function Planetas(){
                         <p className='text-gray-300 text-sm leading-relaxed'>
                            Un  mundo azul profundo y lejano , donde los vientos corren más rapido que en ningun lugar. Se inspira en el misterio, como un suspiro helado en el borde del universo.
                         </p>
+                        </a>
                         </div>
                     </div>
                  </section>

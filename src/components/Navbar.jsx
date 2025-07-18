@@ -10,6 +10,7 @@ function Navbar(){
                 <li><Link to ="/galaxias">Galaxias</Link></li>
                 <li><Link to = "/planetas">Planetas</Link></li>
                 <li><Link to ="/constelaciones">Constelaciones</Link></li>
+                <li><Link to = "/meteoro">Meteoros</Link></li>
                 <li><Link to = "/galeria">Galería</Link></li>
                 <li><Link to ="/curiosidades">Curiosidades</Link></li>
                 

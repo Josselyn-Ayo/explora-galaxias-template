@@ -28,31 +28,37 @@ function Galaxias(){
                     <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
                         
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyRE6Rfi-348Dj9qWOlrzMJB65CZ8CC1Jnow&s" alt="Galaxia del Sombrero"
+                        <a href="https://ieqfb.com/que-hay-en-galaxia-del-sombrero/"target="_blank">
+                        <img src="https://i.pinimg.com/originals/0d/75/5b/0d755ba332e2409c04dc04cc92db7ec6.gif" alt="Galaxia del Sombrero"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition'
                          />
                         <h3 className='text-xl font-bold text-purple-200 mb-2'>Galaxia de Sombrero</h3>
                         <p className='text-gray-300 text-sm leading-relaxed'>
                             Esta galaxia parece un sombrero flotando en el espacio, con un núcleo brilante rodeado por un anilo en polvo oscuro :3. 
                         </p>
+                        </a>
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
-                        <img src="https://i.ytimg.com/vi/Nw4uwRbiNLE/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgTyhFMA8=&rs=AOn4CLArRu-qhkTEgSPqocQBxMB0p77wpQ" alt="Galaxia remolino"
+                        <a href="https://www.astroshop.es/revista/practica/observacion/el-remolino-cosmico-la-galaxia-m51/i,1515"target="_blank">
+                        <img src="https://i.pinimg.com/originals/50/a8/b4/50a8b489339712592a3946ea3c0cde51.gif" alt="Galaxia remolino"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition' />
                         <h3 className='text-xl font-bold text-purple-200 mb-2'>Galaxia del Remolino</h3>
                         <p className='text-gray-300 text-sm leading-relaxed'>
                             Una impresionante galaxia espiral con brazo bien definida que parecen bailar en la oscuridad del universo.
                         </p>
+                        </a>
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUvQNQ7wEyjpZ-7xxRbdY9xz2WRy1EEQ3qUQ&s" alt="NGC 1300" 
+                        <a href="https://observatorio.info/2022/10/galaxia-espiral-barrada-ngc-1300-4/"target="_blank">
+                        <img src="https://i.pinimg.com/originals/b3/b2/3d/b3b23db904813f2f27631eda2d58965c.gif" alt="NGC 1300" 
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition' />
                         <h3 className='text-xl font-bold text-purple-200 mb-2'>NGC 1300</h3>
                         <p className='text-gray-300 text-sm leading-relaxed'>
                             Una galaxia espiral barrada con una estructura sorprendente que parece que fuera un portal hacia otras dimensiones.
                          </p>
+                         </a>
                         </div>  
                     </div>
                 </section>
@@ -60,6 +66,7 @@ function Galaxias(){
                     <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
                         
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://observatorio.info/2015/06/m64-la-galaxia-del-ojo-negro-3/"target="_blank">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcp5TLXG44eYxW_ukgysK0V2wBA_KLD8ZU7w&s" alt="Galaxia del ojo negro"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition'
                          />
@@ -67,24 +74,29 @@ function Galaxias(){
                         <p className='text-gray-300 text-sm leading-relaxed'>
                              La galaxia tiene una mirada propia, como si el universo le hubiera dejado un parpado de sombras en medio de tanta luz . 
                         </p>
+                        </a>
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-82/"target="_blank">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg1jl8O4Bwy-pgQo2fMHDr7Pc4YnhbMoZ2jQ&s" alt="Galaxia Cigarro"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition' />
                         <h3 className='text-xl font-bold text-purple-200 mb-2'>Galaxia del Cigarro</h3>
                         <p className='text-gray-300 text-sm leading-relaxed'>
                            Una galaxia que parece arder en el espacio, como una llama en medio del frío. Su forma alargada y su brillo intenso me hace pensar e algo que no se puede apagar.
                         </p>
+                        </a>
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://astrobackyard.com/bodes-galaxy/"target="_blank">
                         <img src="https://i.pinimg.com/736x/27/fd/f1/27fdf14f3038a2a25a735348c10509c8.jpg" alt="galaxia Bode" 
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition' />
                         <h3 className='text-xl font-bold text-purple-200 mb-2'>Galaxia Bode</h3>
                         <p className='text-gray-300 text-sm leading-relaxed'>
                             Una galaxia que flota tranquila en el universo, como un espiral dibujada con calma. Es de una forma suave y brillante que trasmite paz
                          </p>
+                         </a>
                         </div>  
                     </div>
                 </section>

@@ -69,7 +69,7 @@ function FunFacts(){
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-5 shadow-lg hover:scale-105  transition-transform duration-500'>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/960px-Bruce_McCandless_II_during_EVA_in_1984.jpg" alt="Traje Espacial"
+                        <img src="https://360grados-ondemand.com/wp-content/uploads/2021/10/astronauta.gif" alt="Traje Espacial"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md'
                          />
                         <h3 className='text-xl font-bold text-purple-200 mb-2'>Trajes espaciales completos</h3>
@@ -99,8 +99,8 @@ function FunFacts(){
                     )}
                     </div>
                         <blockquote className="text-purple-300 italic text-base tracking-wide max-w-xl mx-auto mt-6 " >
-                        "Tu has puesto todas las cosas por obra con sabiduría , has hecho la tierra llena de tus bienes."
-                        <footer className="text-purple-400 text-sm mt-2">Salmos 104:24</footer>
+                        "Así dice Jehová Dios, Creador de los cielos, y el que los despliega, el que extiende la tierra y sus productos, el que da aliento al pueblo que mora sobre ella, y espíritu a los que por ella andan."
+                        <footer className="text-purple-400 text-sm mt-2">Isaías 42:5</footer>
                         </blockquote>
 
                         <footer className="mt-16 text-center text-sm text-gray-400">

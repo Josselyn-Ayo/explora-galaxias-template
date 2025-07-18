@@ -25,6 +25,7 @@ function Constelacion(){
                     </h2>
                     <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://skyandaluz.com/blog/cual-es-la-constelacion-casiopea/"target="_blank">
                         <img src="https://media.istockphoto.com/id/1186728772/es/foto/constelaci%C3%B3n-de-casiopea-en-el-cielo-estrellado.jpg?s=612x612&w=0&k=20&c=B5fmZTq4qahsSM_qpboVPYLQ_3YPn6gYZbelZc12kyw=" alt="Casiopea"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition'
                          />
@@ -32,9 +33,11 @@ function Constelacion(){
                         <p className='text-gray-300 text-sm leading-relaxed'>
                            Con la forma w, represena a una reina miteologica. Brilla con exelencia en el cielo.
                         </p>
+                        </a>
                         </div>
 
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://www.space.com/29445-southern-cross-constellation-skywatching.html"target="_blank">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTubta_SWrgsK4iHgzZG3wKaYLMnjxgUt3-Q&s" alt="Cruz del Sur"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition'
                          />
@@ -42,8 +45,10 @@ function Constelacion(){
                         <p className='text-gray-300 text-sm leading-relaxed'>
                            Visible solo de el hemisferio sur, ha sido guia de navegante y simbolo de culturas.
                         </p>
+                        </a>
                         </div>
                         <div className='bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg hover:scale-105 hover:ring-2 hover:ring-indigo-400 transition-transform duration-700'>
+                        <a href="https://astrosigma.com/pegaso/"target="_blank">
                         <img src="https://media.istockphoto.com/id/1130628642/es/vector/constelaci%C3%B3n-de-estrellas-de-pegasus.jpg?s=612x612&w=0&k=20&c=BPJflPQcNfhT1OP84sGImmVbduuf0QYXFkYHCDsyugQ=" alt="Pegaso"
                         className='rounded-xl h-56 w-full object-cover mb-4 shadow-md hover:brightness-110 transition'
                          />
@@ -51,6 +56,7 @@ function Constelacion(){
                         <p className='text-gray-300 text-sm leading-relaxed'>
                            EL mítico cabello alado, su constelacion parece flotar en libertad. Representa la imaginación elevado al cielo. 
                         </p>
+                        </a>
                         </div>
                     </div>
                  </section>
@@ -76,8 +82,8 @@ function Constelacion(){
                     )}
                 </div>
                 <blockquote className="text-purple-300 italic text-base tracking-wide max-w-xl mx-auto mt-6 " >
-                        "Tu has puesto todas las cosas por obra con sabiduría , has hecho la tierra llena de tus bienes."
-                        <footer className="text-purple-400 text-sm mt-2">Salmos 104:24</footer>
+                        "Él solo extendió los cielos, y anda sobre las olas del mar. Él hizo la Osa, el Orión y las Pléyades, y los lugares secretos del sur."
+                        <footer className="text-purple-400 text-sm mt-2">Job 9:8-9</footer>
                         </blockquote>
 
                         <footer className="mt-16 text-center text-sm text-gray-400">

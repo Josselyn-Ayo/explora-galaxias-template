@@ -6,6 +6,7 @@ import Planetas from './pages/Planetas';
 import Constelacion from './pages/Constelacion';
 import Galeria from './pages/Galeria';
 import FunFacts from './pages/FunFacts';
+import Meteoro from './pages/Meteoro';
 import './App.css';
 import'./star.css';
 
@@ -25,6 +26,7 @@ function App() {
       <Route path="/galaxias" element={<Galaxias />} /> 
       <Route path="/planetas" element={<Planetas />} />
       <Route path="/constelaciones" element={<Constelacion />} />
+      <Route path="/meteoro" element={<Meteoro />} />
       <Route path="/galeria" element={<Galeria />} />
       <Route path="/curiosidades" element={<FunFacts />} />
 

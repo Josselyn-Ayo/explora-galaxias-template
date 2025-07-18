@@ -8,7 +8,7 @@ function Home(){
             <h1 className="text-5xl font-extrabold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-indigo-400 drop-shadow-lg">
                 BIENVENIDOS A EXPLORA UNIVERSO</h1>
                 <div className="relative overflow-hidden rounded-3xl mb-12 shadow-[0_0_0_30px_8px_rgba(128,0,255,0.4)]">
-            <img src="https://cdn.pixabay.com/photo/2014/09/08/09/24/solar-system-439046_1280.jpg" alt="SistemaSolar"
+            <img src="https://4kwallpapers.com/images/walls/thumbs_3t/12042.jpg" alt="SistemaSolar"
             className="w-full h-[400px] object-cover opacity-90 hover:opacity-100 hover:scale-105 hover:brightness-110 hover:saturate-150 transition duration-700 ease-in-out" 
             />
             </div>

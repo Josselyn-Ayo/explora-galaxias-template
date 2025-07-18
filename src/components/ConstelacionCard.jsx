@@ -22,6 +22,7 @@ function ConstelacionCard(){
         <section className='mb-20'>
             <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
             <div className="bg-white/10 backdroup-blur-md p-4 rounded-2xl shadow-lg max-w-sm">
+            <a href="https://blogs.upm.es/demadridalcielo/informacion-de-la-constelacion-de-la-osa-mayor/"target="_blank"></a>
             <img src={OsaMayor.imagen} alt={OsaMayor.nombre} 
             className="rounded-xl h-48 w-full object-cover mb-4"/>
             <h2 className="text-xl font-semibold ">{OsaMayor.nombre}</h2>
@@ -29,16 +30,20 @@ function ConstelacionCard(){
         </div>
 
             <div className="bg-white/10 backdroup-blur-md p-4 rounded-2xl shadow-lg max-w-sm">
+            <a href="https://www.ebsco.com/research-starters/astronomy-and-astrophysics/ursa-minor"target="_blank">
             <img src={OsaMenor.imagen} alt={OsaMenor.nombre} 
             className="rounded-xl h-48 w-full object-cover mb-4"/>
             <h2 className="text-xl font-semibold ">{OsaMenor.nombre}</h2>
             <p className="text-sm mt-2">{OsaMenor.descripcion}</p>
+            </a>
         </div>
         <div className="bg-white/10 backdroup-blur-md p-4 rounded-2xl shadow-lg max-w-sm">
+            <a href="https://astrobackyard.com/orion-constellation/"target="_blank">  
             <img src={constelacion.imagen} alt={constelacion.nombre} 
             className="rounded-xl h-48 w-full object-cover mb-4"/>
             <h2 className="text-xl font-semibold ">{constelacion.nombre}</h2>
             <p className="text-sm mt-2">{constelacion.descripcion}</p>
+            </a>
         </div>
         </div>
         </section>
