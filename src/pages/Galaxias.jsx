@@ -124,7 +124,7 @@ function Galaxias(){
                 </blockquote>
 
                 <footer className="mt-16 text-center text-sm text-gray-400">
-                    Gracias por explorar le universo conmigo. Creado por <span className="text-purple-300">Josselyn Ayo</span>- 2025 @ Explora Galaxias.
+                    Gracias por explorar el universo conmigo. Creado por <span className="text-purple-300">Josselyn Ayo</span>- 2025 @ Explora Galaxias.
                 </footer>
         </div>
     </div>
